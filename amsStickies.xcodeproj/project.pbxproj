@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA90A6421D859EB300D31418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA90A6411D859EB300D31418 /* Assets.xcassets */; };
+		AA90A6491D859EB300D31418 /* MessagesExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AA90A6481D859EB300D31418 /* MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AA90A64E1D859EB300D31418 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA90A64D1D859EB300D31418 /* Messages.framework */; };
+		AA90A6521D859EB300D31418 /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA90A6511D859EB300D31418 /* MessagesViewController.m */; };
+		AA90A6551D859EB300D31418 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA90A6531D859EB300D31418 /* MainInterface.storyboard */; };
+		AA90A6571D859EB300D31418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA90A6561D859EB300D31418 /* Assets.xcassets */; };
+		AA90A6641D85A36F00D31418 /* StickerBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA90A6631D85A36F00D31418 /* StickerBrowserViewController.m */; };
+		AA90A6681D85AF2400D31418 /* AMSSquare.png in Resources */ = {isa = PBXBuildFile; fileRef = AA90A6661D85AF2400D31418 /* AMSSquare.png */; };
+		AA90A6691D85AF2400D31418 /* AMSRound.png in Resources */ = {isa = PBXBuildFile; fileRef = AA90A6671D85AF2400D31418 /* AMSRound.png */; };
+		AA90A66C1D85B9B000D31418 /* AMSSquareWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = AA90A66A1D85B9B000D31418 /* AMSSquareWhite.png */; };
+		AA90A66D1D85B9B000D31418 /* AMSRoundWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = AA90A66B1D85B9B000D31418 /* AMSRoundWhite.png */; };
+		AA90A6701D85BB3E00D31418 /* AMSABSWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = AA90A66E1D85BB3E00D31418 /* AMSABSWhite.png */; };
+		AA90A6711D85BB3E00D31418 /* AMSABS.png in Resources */ = {isa = PBXBuildFile; fileRef = AA90A66F1D85BB3E00D31418 /* AMSABS.png */; };
+		AA90A6731D85C6F800D31418 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA90A6721D85C6F800D31418 /* GameKit.framework */; };
+		AA90A6751D85C72A00D31418 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA90A6741D85C72A00D31418 /* StoreKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA90A64A1D859EB300D31418 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA90A6381D859EB300D31418 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA90A6471D859EB300D31418;
+			remoteInfo = MessagesExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AA90A65E1D859EB300D31418 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AA90A6491D859EB300D31418 /* MessagesExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AA90A63E1D859EB300D31418 /* amsStickies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = amsStickies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA90A6411D859EB300D31418 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA90A6431D859EB300D31418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA90A6481D859EB300D31418 /* MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MessagesExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA90A64D1D859EB300D31418 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		AA90A6501D859EB300D31418 /* MessagesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessagesViewController.h; sourceTree = "<group>"; };
+		AA90A6511D859EB300D31418 /* MessagesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessagesViewController.m; sourceTree = "<group>"; };
+		AA90A6541D859EB300D31418 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		AA90A6561D859EB300D31418 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA90A6581D859EB300D31418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA90A6621D85A36F00D31418 /* StickerBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickerBrowserViewController.h; sourceTree = "<group>"; };
+		AA90A6631D85A36F00D31418 /* StickerBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickerBrowserViewController.m; sourceTree = "<group>"; };
+		AA90A6661D85AF2400D31418 /* AMSSquare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AMSSquare.png; sourceTree = "<group>"; };
+		AA90A6671D85AF2400D31418 /* AMSRound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AMSRound.png; sourceTree = "<group>"; };
+		AA90A66A1D85B9B000D31418 /* AMSSquareWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AMSSquareWhite.png; sourceTree = "<group>"; };
+		AA90A66B1D85B9B000D31418 /* AMSRoundWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AMSRoundWhite.png; sourceTree = "<group>"; };
+		AA90A66E1D85BB3E00D31418 /* AMSABSWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AMSABSWhite.png; sourceTree = "<group>"; };
+		AA90A66F1D85BB3E00D31418 /* AMSABS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AMSABS.png; sourceTree = "<group>"; };
+		AA90A6721D85C6F800D31418 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		AA90A6741D85C72A00D31418 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA90A6451D859EB300D31418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA90A6751D85C72A00D31418 /* StoreKit.framework in Frameworks */,
+				AA90A64E1D859EB300D31418 /* Messages.framework in Frameworks */,
+				AA90A6731D85C6F800D31418 /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA90A6371D859EB300D31418 = {
+			isa = PBXGroup;
+			children = (
+				AA90A6401D859EB300D31418 /* amsStickies */,
+				AA90A64F1D859EB300D31418 /* MessagesExtension */,
+				AA90A64C1D859EB300D31418 /* Frameworks */,
+				AA90A63F1D859EB300D31418 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA90A63F1D859EB300D31418 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA90A63E1D859EB300D31418 /* amsStickies.app */,
+				AA90A6481D859EB300D31418 /* MessagesExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA90A6401D859EB300D31418 /* amsStickies */ = {
+			isa = PBXGroup;
+			children = (
+				AA90A6411D859EB300D31418 /* Assets.xcassets */,
+				AA90A6431D859EB300D31418 /* Info.plist */,
+			);
+			path = amsStickies;
+			sourceTree = "<group>";
+		};
+		AA90A64C1D859EB300D31418 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA90A6741D85C72A00D31418 /* StoreKit.framework */,
+				AA90A6721D85C6F800D31418 /* GameKit.framework */,
+				AA90A64D1D859EB300D31418 /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA90A64F1D859EB300D31418 /* MessagesExtension */ = {
+			isa = PBXGroup;
+			children = (
+				AA90A6651D85A52600D31418 /* Stickers */,
+				AA90A6501D859EB300D31418 /* MessagesViewController.h */,
+				AA90A6511D859EB300D31418 /* MessagesViewController.m */,
+				AA90A6531D859EB300D31418 /* MainInterface.storyboard */,
+				AA90A6561D859EB300D31418 /* Assets.xcassets */,
+				AA90A6581D859EB300D31418 /* Info.plist */,
+				AA90A6621D85A36F00D31418 /* StickerBrowserViewController.h */,
+				AA90A6631D85A36F00D31418 /* StickerBrowserViewController.m */,
+			);
+			path = MessagesExtension;
+			sourceTree = "<group>";
+		};
+		AA90A6651D85A52600D31418 /* Stickers */ = {
+			isa = PBXGroup;
+			children = (
+				AA90A66E1D85BB3E00D31418 /* AMSABSWhite.png */,
+				AA90A66F1D85BB3E00D31418 /* AMSABS.png */,
+				AA90A66A1D85B9B000D31418 /* AMSSquareWhite.png */,
+				AA90A66B1D85B9B000D31418 /* AMSRoundWhite.png */,
+				AA90A6661D85AF2400D31418 /* AMSSquare.png */,
+				AA90A6671D85AF2400D31418 /* AMSRound.png */,
+			);
+			name = Stickers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA90A63D1D859EB300D31418 /* amsStickies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA90A65F1D859EB300D31418 /* Build configuration list for PBXNativeTarget "amsStickies" */;
+			buildPhases = (
+				AA90A63C1D859EB300D31418 /* Resources */,
+				AA90A65E1D859EB300D31418 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA90A64B1D859EB300D31418 /* PBXTargetDependency */,
+			);
+			name = amsStickies;
+			productName = amsStickies;
+			productReference = AA90A63E1D859EB300D31418 /* amsStickies.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		AA90A6471D859EB300D31418 /* MessagesExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA90A65B1D859EB300D31418 /* Build configuration list for PBXNativeTarget "MessagesExtension" */;
+			buildPhases = (
+				AA90A6441D859EB300D31418 /* Sources */,
+				AA90A6451D859EB300D31418 /* Frameworks */,
+				AA90A6461D859EB300D31418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MessagesExtension;
+			productName = MessagesExtension;
+			productReference = AA90A6481D859EB300D31418 /* MessagesExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA90A6381D859EB300D31418 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Agile Mobile Solutions";
+				TargetAttributes = {
+					AA90A63D1D859EB300D31418 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = B7QMBU3EE6;
+						ProvisioningStyle = Manual;
+					};
+					AA90A6471D859EB300D31418 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = B7QMBU3EE6;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = AA90A63B1D859EB300D31418 /* Build configuration list for PBXProject "amsStickies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA90A6371D859EB300D31418;
+			productRefGroup = AA90A63F1D859EB300D31418 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA90A63D1D859EB300D31418 /* amsStickies */,
+				AA90A6471D859EB300D31418 /* MessagesExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA90A63C1D859EB300D31418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA90A6421D859EB300D31418 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA90A6461D859EB300D31418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA90A6691D85AF2400D31418 /* AMSRound.png in Resources */,
+				AA90A6571D859EB300D31418 /* Assets.xcassets in Resources */,
+				AA90A66D1D85B9B000D31418 /* AMSRoundWhite.png in Resources */,
+				AA90A66C1D85B9B000D31418 /* AMSSquareWhite.png in Resources */,
+				AA90A6711D85BB3E00D31418 /* AMSABS.png in Resources */,
+				AA90A6681D85AF2400D31418 /* AMSSquare.png in Resources */,
+				AA90A6551D859EB300D31418 /* MainInterface.storyboard in Resources */,
+				AA90A6701D85BB3E00D31418 /* AMSABSWhite.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA90A6441D859EB300D31418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA90A6641D85A36F00D31418 /* StickerBrowserViewController.m in Sources */,
+				AA90A6521D859EB300D31418 /* MessagesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA90A64B1D859EB300D31418 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA90A6471D859EB300D31418 /* MessagesExtension */;
+			targetProxy = AA90A64A1D859EB300D31418 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA90A6531D859EB300D31418 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA90A6541D859EB300D31418 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA90A6591D859EB300D31418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = B7QMBU3EE6;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "21505f30-ccfc-4f50-9b9a-916fc7837ebd";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: com.ams.Stickies.MessagesExtension";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA90A65A1D859EB300D31418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = B7QMBU3EE6;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "21505f30-ccfc-4f50-9b9a-916fc7837ebd";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: com.ams.Stickies.MessagesExtension";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA90A65C1D859EB300D31418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = B7QMBU3EE6;
+				INFOPLIST_FILE = MessagesExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ams.Stickies.MessagesExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "21505f30-ccfc-4f50-9b9a-916fc7837ebd";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: com.ams.Stickies.MessagesExtension";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AA90A65D1D859EB300D31418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = B7QMBU3EE6;
+				INFOPLIST_FILE = MessagesExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ams.Stickies.MessagesExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "21505f30-ccfc-4f50-9b9a-916fc7837ebd";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: com.ams.Stickies.MessagesExtension";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AA90A6601D859EB300D31418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = B7QMBU3EE6;
+				INFOPLIST_FILE = amsStickies/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ams.Stickies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5464e48f-9d6e-460b-8801-6434a9085697";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: *";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA90A6611D859EB300D31418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = B7QMBU3EE6;
+				INFOPLIST_FILE = amsStickies/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ams.Stickies;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5464e48f-9d6e-460b-8801-6434a9085697";
+				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: *";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA90A63B1D859EB300D31418 /* Build configuration list for PBXProject "amsStickies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA90A6591D859EB300D31418 /* Debug */,
+				AA90A65A1D859EB300D31418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA90A65B1D859EB300D31418 /* Build configuration list for PBXNativeTarget "MessagesExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA90A65C1D859EB300D31418 /* Debug */,
+				AA90A65D1D859EB300D31418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA90A65F1D859EB300D31418 /* Build configuration list for PBXNativeTarget "amsStickies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA90A6601D859EB300D31418 /* Debug */,
+				AA90A6611D859EB300D31418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA90A6381D859EB300D31418 /* Project object */;
+}
